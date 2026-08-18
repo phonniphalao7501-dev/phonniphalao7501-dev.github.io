@@ -1,5 +1,5 @@
 //เพิ่ม JavaScript สำหรับการโต้ตอบกับผู้ใช้ (Optional)
-document.addEventListener(’DOMContentLoaded‘,function () {
+document.addEventListener('DOMContentLoaded',function () {
     document.gerElementById('year').innerHTML = new Date().getFullYear();
     console.log(’Portfolio ของ Phornnipha พร้อมแล้ว!‘);
 });
